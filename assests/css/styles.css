@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    background-color: #999da8;
+}
+header{
+    background-color: black;
+}
+#logo{
+    width: 300px;
+}
+
+#wrapper{
+    padding: 0;
+}
+
+#searchedCardList > li {
+    cursor: default;
+    transition: background-color .1s;
+}
+
+#searcheedCardList > li:hover{
+    background-color: #d3d3d3;
+}
