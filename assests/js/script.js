@@ -130,7 +130,7 @@ function getImage(cardImageGallery, cardName) {
         getAltArt = localStorage.getItem(`${cardName}${j}`);
         cardImageOut += `
                 <div class="carousel-item" id="extra">
-                <img src="${getAltArt}" class="image-fluid w-50 mx-auto d=block">
+                <img src="${getAltArt}" class="image-fluid w-50 mx-auto d-block">
                 </div>
                 `;
       }
